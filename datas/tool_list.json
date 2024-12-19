@@ -1,0 +1,46 @@
+[
+  {
+    "dev": true,
+    "enabled": true,
+    "history": [
+      {
+        "version": "0.1",
+        "note": "2024-06-21 先上架測試。看看適不適用吧！data 持續補上。(v0.1)",
+        "time": 1625101200
+      }
+    ],
+    
+    "software": "max",
+    "name": "Submit to Deadline LITE",
+    "description": "透過設定檔讓它可以仿照 Render Layer 進行批次本機算圖 (或 Submit)",
+    "icon": "thinkbox.png",
+    
+    "label": "LITE",
+    "keywords": ["TD", "render", "layer", "AKN"],
+    
+    "create_time": 1625101200,
+    "update_time": 1625101200,
+    "id": "4ac83f82c5f34669a2432130d8d7dd9b"
+  },
+  {
+    "history": [
+      {
+        "version": "0.1",
+        "note": "2024-06-21 先上架測試。看看適不適用吧！data 持續補上。(v0.1)",
+        "time": 1625101200
+      }
+    ],
+    
+    "software": "standalone",
+    "name": "About Pan",
+    "description": "透過設定檔讓它可以仿照 Render Layer 進行批次本機算圖 (或 Submit)",
+    "icon": "td.png",
+    
+    "label": "",
+    "keywords": ["TD", "pan", "profile"],
+    
+    "create_time": 1625101200,
+    "update_time": 1625101200,
+    "id": "000"
+  }
+]
