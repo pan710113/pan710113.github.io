@@ -1,46 +1,230 @@
 [
   {
-    "dev": true,
-    "enabled": true,
-    "history": [
+    "software": "Standalone, Maya, Max, AE, Blender, Krita",
+    "name": "ToolBox",
+    "description": "A unified platform brings together custom and third-party tools, enhancing user experience through simplified access and management.",
+    "icon": "magic.png",
+    "thumbnails": [
       {
-        "version": "0.1",
-        "note": "2024-06-21 先上架測試。看看適不適用吧！data 持續補上。(v0.1)",
-        "time": 1625101200
+        "thumbnail": "toolbox_000.png",
+        "label": "Standalone",
+        "description": ""
+      },
+      {
+        "thumbnail": "toolbox_001.png",
+        "label": "Maya",
+        "description": ""
+      },
+      {
+        "thumbnail": "toolbox_002.png",
+        "label": "3ds Max",
+        "description": ""
+      },
+      {
+        "thumbnail": "toolbox_003.png",
+        "label": "After Effects",
+        "description": ""
       }
     ],
     
-    "software": "max",
-    "name": "Submit to Deadline LITE",
-    "description": "透過設定檔讓它可以仿照 Render Layer 進行批次本機算圖 (或 Submit)",
-    "icon": "thinkbox.png",
+    "label": "",
+    "keywords": ["toolbox", "tool", "box"],
     
-    "label": "LITE",
-    "keywords": ["TD", "render", "layer", "AKN"],
-    
-    "create_time": 1625101200,
-    "update_time": 1625101200,
-    "id": "4ac83f82c5f34669a2432130d8d7dd9b"
+    "id": "000"
   },
   {
-    "history": [
+    "software": "Web, Standalone",
+    "name": "Asset Library",
+    "description": "將公司內部曾經製作過的 asset 建立相關的 metadata 後，上架至此平台，方便後續查詢以及重覆運用",
+    "icon": "library.png",
+    "thumbnails": [
+      "asset_lib_000.png",
+      "asset_lib_001.png",
+      "asset_lib_002.png",
+      "asset_lib_003.png"
+    ],
+    
+    "label": "",
+    "keywords": ["lib", "library", "asset", "database", "db"],
+    
+    "id": "100"
+  },
+  {
+    "software": "Web",
+    "name": "Render Farm Report",
+    "description": "檢視目前 Render Farm 的運作狀況，各機器的軟/硬體配置；並分析各專案 render 的情況",
+    "icon": "farm_work.png",
+    "thumbnails": [
+    ],
+    
+    "label": "",
+    "keywords": ["render", "farm", "deadline", "report", "analysis"],
+    
+    "id": "110"
+  },
+  {
+    "software": "Web",
+    "name": "Tool Report",
+    "description": "檢視各工具在每位使用者的使用的情況，並提供各工具的簡易說明",
+    "icon": "monitoring.png",
+    "icon_source": "https://www.flaticon.com/packs/business-and-financial-technology",
+    "thumbnails": [
+    ],
+    
+    "label": "TooL",
+    "keywords": ["tool", "td", "report", "analysis"],
+    
+    "id": "120"
+  },
+  {
+    "software": "Web",
+    "name": "HR Report",
+    "description": "檢視公司內容人員的清單，建立對應的 mail 與電腦帳號的對應資訊",
+    "icon": "monitoring.png",
+    "thumbnails": [
+    ],
+    
+    "label": "HR",
+    "keywords": ["hr", "admin", "user", "report", "analysis"],
+    
+    "id": "130"
+  },
+  {
+    "software": "Web",
+    "name": "Project Tracking",
+    "description": "",
+    "icon": "pm.png",
+    "thumbnails": [
+    ],
+    
+    "label": "SG",
+    "keywords": ["hr", "admin", "user", "report", "analysis"],
+    
+    "id": "140"
+  },
+  {
+    "software": "Web, Standalone",
+    "name": "Timesheet",
+    "description": "",
+    "icon": "payday.png",
+    "thumbnails": [
+    ],
+    
+    "label": "SG",
+    "keywords": ["hr", "admin", "user", "report", "analysis"],
+    
+    "id": "150"
+  },
+  {
+    "software": "Maya, Max, AE",
+    "name": "Submit to Deadline LITE",
+    "description": "A simplified version of the Submit to Deadline tool interface allows users to submit more intuitively.",
+    "icon": "thinkbox.png",
+
+    "thumbnails": [
       {
-        "version": "0.1",
-        "note": "2024-06-21 先上架測試。看看適不適用吧！data 持續補上。(v0.1)",
-        "time": 1625101200
+        "thumbnail": "submit_to_deadline_lite_000.png",
+        "label": "Maya",
+        "description": ""
+      },
+      {
+        "thumbnail": "submit_to_deadline_lite_001.png",
+        "label": "Maya",
+        "description": ""
+      },
+      {
+        "thumbnail": "submit_to_deadline_lite_002.png",
+        "label": "3ds Max",
+        "description": ""
+      },
+      {
+        "thumbnail": "submit_to_deadline_lite_003.png",
+        "label": "3ds Max",
+        "description": ""
+      },
+      {
+        "thumbnail": "submit_to_deadline_lite_004.png",
+        "label": "After Effects",
+        "description": ""
+      },
+      {
+        "thumbnail": "submit_to_deadline_lite_005.png",
+        "label": "After Effects",
+        "description": ""
       }
     ],
     
-    "software": "standalone",
+    "label": "LITE",
+    "keywords": ["render", "farm", "submit", "deadline", "thinkbox", "lite"],
+    
+    "id": "200"
+  },
+  {
+    "software": "Maya",
+    "name": "Maya Tool Samples",
+    "description": "僅提供部份 Maya 工具的範例 (若對特定工具有興趣，歡迎一起討論)",
+    "icon": "maya_202x.png",
+
+    "thumbnails": [
+      {
+        "thumbnail": "maya_color_picker_pp_line.png",
+        "label": "Color Picker for P+ Line",
+        "description": ""
+      }
+    ],
+    
+    "label": "",
+    "keywords": ["maya", "tool", "sample"],
+    
+    "id": "210"
+  },
+  {
+    "software": "Max",
+    "name": "Max Tool Samples",
+    "description": "僅提供部份 Max 工具的範例 (若對特定工具有興趣，歡迎一起討論)",
+    "icon": "max_202x.png",
+
+    "thumbnails": [
+      {
+        "thumbnail": "max_render_submit_tool_000.png",
+        "label": "Render / Submit Tool",
+        "description": ""
+      }
+    ],
+    
+    "label": "",
+    "keywords": ["3ds", "max", "tool", "sample"],
+    
+    "id": "220"
+  },
+  {
+    "software": "AE",
+    "name": "AE Tool Samples",
+    "description": "僅提供部份 After Effects 工具的範例 (若對特定工具有興趣，歡迎一起討論)",
+    "icon": "ae.png",
+
+    "thumbnails": [
+      {
+        "thumbnail": "ae_fix_tools.png",
+        "label": "Some Fix Tools",
+        "description": ""
+      }
+    ],
+    
+    "label": "",
+    "keywords": ["ae", "after", "effects", "tool", "sample"],
+    
+    "id": "230"
+  },
+  {
+    "software": "",
     "name": "About Pan",
-    "description": "透過設定檔讓它可以仿照 Render Layer 進行批次本機算圖 (或 Submit)",
+    "description": "About the author, Pan...",
     "icon": "td.png",
     
     "label": "",
-    "keywords": ["TD", "pan", "profile"],
+    "keywords": ["td", "pan", "profile"],
     
-    "create_time": 1625101200,
-    "update_time": 1625101200,
-    "id": "000"
+    "id": "999"
   }
 ]
