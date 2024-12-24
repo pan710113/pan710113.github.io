@@ -33,7 +33,7 @@
     "id": "000"
   },
   {
-    "software": "Web, Standalone",
+    "software": "Web, Frontend, Backend, Standalone",
     "name": "Asset Library",
     "description": "將公司內部曾經製作過的 asset 建立相關的 metadata 後，上架至此平台，方便後續查詢以及重覆運用",
     "icon": "library.png",
@@ -50,11 +50,18 @@
     "id": "100"
   },
   {
-    "software": "Web",
+    "software": "Web, Frontend, Backend",
     "name": "Render Farm Report",
     "description": "檢視目前 Render Farm 的運作狀況，各機器的軟/硬體配置；並分析各專案 render 的情況",
     "icon": "farm_work.png",
     "thumbnails": [
+      "render_farm_report_001.png",
+      "render_farm_report_002.png",
+      "render_farm_report_003.png",
+      "render_farm_report_004.png",
+      "render_farm_report_005.png",
+      "render_farm_report_006.png",
+      "render_farm_report_007.png"
     ],
     
     "label": "",
@@ -63,55 +70,132 @@
     "id": "110"
   },
   {
-    "software": "Web",
+    "software": "Web, Frontend, Backend",
     "name": "Tool Report",
     "description": "檢視各工具在每位使用者的使用的情況，並提供各工具的簡易說明",
     "icon": "monitoring.png",
     "icon_source": "https://www.flaticon.com/packs/business-and-financial-technology",
     "thumbnails": [
+      {
+        "thumbnail": "tool_report_000.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "tool_report_001.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "tool_report_010.png",
+        "label": "Human Resource",
+        "description": "檢視公司人員清單，建立對應的 mail 與各帳號的對應資訊"
+      },
+      {
+        "thumbnail": "tool_report_011.png",
+        "label": "User-based",
+        "description": "以使用者為主，檢視該工具使用的情況"
+      },
+      {
+        "thumbnail": "tool_report_012.png",
+        "label": "Tool-based",
+        "description": "以工具為主，檢視該工具使用的情況"
+      }
     ],
     
-    "label": "TooL",
-    "keywords": ["tool", "td", "report", "analysis"],
+    "label": "",
+    "keywords": ["tool", "td", "hr", "user", "report", "analysis"],
     
     "id": "120"
   },
   {
-    "software": "Web",
-    "name": "HR Report",
-    "description": "檢視公司內容人員的清單，建立對應的 mail 與電腦帳號的對應資訊",
-    "icon": "monitoring.png",
-    "thumbnails": [
-    ],
-    
-    "label": "HR",
-    "keywords": ["hr", "admin", "user", "report", "analysis"],
-    
-    "id": "130"
-  },
-  {
-    "software": "Web",
+    "software": "Web, Frontend, Backend",
     "name": "Project Tracking",
-    "description": "",
+    "description": "從 FPT (ShotGrid) 取得專案、工作、製作人員、工時等相關資料；將資料依照管理需求分析成所需的資訊，建立相關的圖表等，快速追蹤目前專案進度",
     "icon": "pm.png",
     "thumbnails": [
+      {
+        "thumbnail": "track_report_000.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_001.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_002.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_003.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_004.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_005.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_006.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_101.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "track_report_102.png",
+        "label": "",
+        "description": ""
+      }
     ],
     
     "label": "SG",
-    "keywords": ["hr", "admin", "user", "report", "analysis"],
+    "keywords": ["sg", "shotgrid", "fpt", "flow", "production", "track", "project", "management", "analysis"],
     
     "id": "140"
   },
   {
-    "software": "Web, Standalone",
+    "software": "Web, Frontend, Backend, Standalone",
     "name": "Timesheet",
-    "description": "",
+    "description": "製作者參考每日上傳至 FPT (ShotGrid) 的資訊，填寫每日製作工時的資料，方便後續追蹤與分析",
     "icon": "payday.png",
     "thumbnails": [
+      {
+        "thumbnail": "timesheet_001.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "timesheet_002.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "timesheet_003.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "timesheet_004.png",
+        "label": "",
+        "description": ""
+      }
     ],
     
     "label": "SG",
-    "keywords": ["hr", "admin", "user", "report", "analysis"],
+    "keywords": ["sg", "shotgrid", "fpt", "flow", "production", "track", "analysis"],
     
     "id": "150"
   },
@@ -162,7 +246,7 @@
   {
     "software": "Maya",
     "name": "Maya Tool Samples",
-    "description": "僅提供部份 Maya 工具的範例 (若對特定工具有興趣，歡迎一起討論)",
+    "description": "僅提供部份 Maya 工具的範例，陸續增加中 (如對特定工具有興趣，歡迎一起討論)",
     "icon": "maya_202x.png",
 
     "thumbnails": [
@@ -181,7 +265,7 @@
   {
     "software": "Max",
     "name": "Max Tool Samples",
-    "description": "僅提供部份 Max 工具的範例 (若對特定工具有興趣，歡迎一起討論)",
+    "description": "僅提供部份 Max 工具的範例，陸續增加中 (如對特定工具有興趣，歡迎一起討論)",
     "icon": "max_202x.png",
 
     "thumbnails": [
@@ -200,7 +284,7 @@
   {
     "software": "AE",
     "name": "AE Tool Samples",
-    "description": "僅提供部份 After Effects 工具的範例 (若對特定工具有興趣，歡迎一起討論)",
+    "description": "僅提供部份 After Effects 工具的範例，陸續增加中 (如對特定工具有興趣，歡迎一起討論)",
     "icon": "ae.png",
 
     "thumbnails": [
