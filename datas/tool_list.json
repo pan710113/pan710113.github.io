@@ -244,6 +244,75 @@
     "id": "200"
   },
   {
+    "software": "Standalone",
+    "name": "Standalone Tool Samples",
+    "description": "僅提供部份 Standalone 工具的範例，陸續增加中 (如對特定工具有興趣，歡迎一起討論)",
+    "icon": "window_app.png",
+
+    "thumbnails": [
+      {
+        "thumbnail": "standalone_setting.png",
+        "label": "",
+        "description": ""
+      },
+      {
+        "thumbnail": "standalone_test_tool_01.png",
+        "label": "Script Test",
+        "description": "(Maya, Max, Blender, ... as well)"
+      },
+      {
+        "thumbnail": "standalone_test_tool_02.png",
+        "label": "Script Test",
+        "description": "(Maya, Max, Blender, ... as well)"
+      },
+      {
+        "thumbnail": "standalone_image_2_video_01.png",
+        "label": "Image to Video",
+        "description": "(using FFMPEG)"
+      },
+      {
+        "thumbnail": "standalone_image_2_video_02.png",
+        "label": "Image to Video",
+        "description": "(using FFMPEG)"
+      },
+      {
+        "thumbnail": "standalone_ae_pack_01.png",
+        "label": "After Effects Batch Package",
+        "description": "(no-ui)"
+      },
+      {
+        "thumbnail": "standalone_ae_pack_02.png",
+        "label": "After Effects Batch Package",
+        "description": "(no-ui)"
+      },
+      {
+        "thumbnail": "standalone_ae_build_01.png",
+        "label": "After Effects Precomp Builder",
+        "description": "(no-ui)"
+      },
+      {
+        "thumbnail": "standalone_ae_build_02.png",
+        "label": "After Effects Precomp Builder",
+        "description": "(no-ui)"
+      },
+      {
+        "thumbnail": "standalone_upload_2_sg_01.png",
+        "label": "Upload to ShotGrid",
+        "description": "(using FFMPEG and batch supported)"
+      },
+      {
+        "thumbnail": "standalone_upload_2_sg_02.png",
+        "label": "Upload to ShotGrid",
+        "description": "(using FFMPEG and batch supported)"
+      }
+    ],
+    
+    "label": "",
+    "keywords": ["standalone", "tool", "sample"],
+    
+    "id": "205"
+  },
+  {
     "software": "Maya",
     "name": "Maya Tool Samples",
     "description": "僅提供部份 Maya 工具的範例，陸續增加中 (如對特定工具有興趣，歡迎一起討論)",
